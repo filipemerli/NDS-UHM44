@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A750A467206AD45400A97F96 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750A466206AD45400A97F96 /* ConnectViewController.swift */; };
+		A750A469206AD83D00A97F96 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750A468206AD83D00A97F96 /* Constants.swift */; };
+		A78E2967206930C400C74B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E2966206930C400C74B2A /* AppDelegate.swift */; };
+		A78E2969206930C400C74B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E2968206930C400C74B2A /* ViewController.swift */; };
+		A78E296C206930C400C74B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E296A206930C400C74B2A /* Main.storyboard */; };
+		A78E296E206930C400C74B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78E296D206930C400C74B2A /* Assets.xcassets */; };
+		A78E2971206930C400C74B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E296F206930C400C74B2A /* LaunchScreen.storyboard */; };
+		A78E297C206930C400C74B2A /* UHM44Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E297B206930C400C74B2A /* UHM44Tests.swift */; };
+		A78E2987206930C400C74B2A /* UHM44UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E2986206930C400C74B2A /* UHM44UITests.swift */; };
+		A78E29952069318800C74B2A /* StreamsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E29942069318800C74B2A /* StreamsClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A78E2978206930C400C74B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78E295B206930C400C74B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78E2962206930C400C74B2A;
+			remoteInfo = UHM44;
+		};
+		A78E2983206930C400C74B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78E295B206930C400C74B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78E2962206930C400C74B2A;
+			remoteInfo = UHM44;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A750A466206AD45400A97F96 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		A750A468206AD83D00A97F96 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A78E2963206930C400C74B2A /* UHM44.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UHM44.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E2966206930C400C74B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A78E2968206930C400C74B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A78E296B206930C400C74B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A78E296D206930C400C74B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A78E2970206930C400C74B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A78E2972206930C400C74B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78E2977206930C400C74B2A /* UHM44Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UHM44Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E297B206930C400C74B2A /* UHM44Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHM44Tests.swift; sourceTree = "<group>"; };
+		A78E297D206930C400C74B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78E2982206930C400C74B2A /* UHM44UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UHM44UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E2986206930C400C74B2A /* UHM44UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHM44UITests.swift; sourceTree = "<group>"; };
+		A78E2988206930C400C74B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78E29942069318800C74B2A /* StreamsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamsClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78E2960206930C400C74B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E2974206930C400C74B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E297F206930C400C74B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78E295A206930C400C74B2A = {
+			isa = PBXGroup;
+			children = (
+				A78E2965206930C400C74B2A /* UHM44 */,
+				A78E297A206930C400C74B2A /* UHM44Tests */,
+				A78E2985206930C400C74B2A /* UHM44UITests */,
+				A78E2964206930C400C74B2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78E2964206930C400C74B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78E2963206930C400C74B2A /* UHM44.app */,
+				A78E2977206930C400C74B2A /* UHM44Tests.xctest */,
+				A78E2982206930C400C74B2A /* UHM44UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78E2965206930C400C74B2A /* UHM44 */ = {
+			isa = PBXGroup;
+			children = (
+				A78E2966206930C400C74B2A /* AppDelegate.swift */,
+				A78E29942069318800C74B2A /* StreamsClient.swift */,
+				A78E2968206930C400C74B2A /* ViewController.swift */,
+				A750A466206AD45400A97F96 /* ConnectViewController.swift */,
+				A750A468206AD83D00A97F96 /* Constants.swift */,
+				A78E296A206930C400C74B2A /* Main.storyboard */,
+				A78E296D206930C400C74B2A /* Assets.xcassets */,
+				A78E296F206930C400C74B2A /* LaunchScreen.storyboard */,
+				A78E2972206930C400C74B2A /* Info.plist */,
+			);
+			path = UHM44;
+			sourceTree = "<group>";
+		};
+		A78E297A206930C400C74B2A /* UHM44Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A78E297B206930C400C74B2A /* UHM44Tests.swift */,
+				A78E297D206930C400C74B2A /* Info.plist */,
+			);
+			path = UHM44Tests;
+			sourceTree = "<group>";
+		};
+		A78E2985206930C400C74B2A /* UHM44UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A78E2986206930C400C74B2A /* UHM44UITests.swift */,
+				A78E2988206930C400C74B2A /* Info.plist */,
+			);
+			path = UHM44UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78E2962206930C400C74B2A /* UHM44 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78E298B206930C400C74B2A /* Build configuration list for PBXNativeTarget "UHM44" */;
+			buildPhases = (
+				A78E295F206930C400C74B2A /* Sources */,
+				A78E2960206930C400C74B2A /* Frameworks */,
+				A78E2961206930C400C74B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UHM44;
+			productName = UHM44;
+			productReference = A78E2963206930C400C74B2A /* UHM44.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A78E2976206930C400C74B2A /* UHM44Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78E298E206930C400C74B2A /* Build configuration list for PBXNativeTarget "UHM44Tests" */;
+			buildPhases = (
+				A78E2973206930C400C74B2A /* Sources */,
+				A78E2974206930C400C74B2A /* Frameworks */,
+				A78E2975206930C400C74B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78E2979206930C400C74B2A /* PBXTargetDependency */,
+			);
+			name = UHM44Tests;
+			productName = UHM44Tests;
+			productReference = A78E2977206930C400C74B2A /* UHM44Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A78E2981206930C400C74B2A /* UHM44UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78E2991206930C400C74B2A /* Build configuration list for PBXNativeTarget "UHM44UITests" */;
+			buildPhases = (
+				A78E297E206930C400C74B2A /* Sources */,
+				A78E297F206930C400C74B2A /* Frameworks */,
+				A78E2980206930C400C74B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78E2984206930C400C74B2A /* PBXTargetDependency */,
+			);
+			name = UHM44UITests;
+			productName = UHM44UITests;
+			productReference = A78E2982206930C400C74B2A /* UHM44UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78E295B206930C400C74B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Filipe Merli";
+				TargetAttributes = {
+					A78E2962206930C400C74B2A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A78E2976206930C400C74B2A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A78E2962206930C400C74B2A;
+					};
+					A78E2981206930C400C74B2A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A78E2962206930C400C74B2A;
+					};
+				};
+			};
+			buildConfigurationList = A78E295E206930C400C74B2A /* Build configuration list for PBXProject "UHM44" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78E295A206930C400C74B2A;
+			productRefGroup = A78E2964206930C400C74B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78E2962206930C400C74B2A /* UHM44 */,
+				A78E2976206930C400C74B2A /* UHM44Tests */,
+				A78E2981206930C400C74B2A /* UHM44UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78E2961206930C400C74B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E2971206930C400C74B2A /* LaunchScreen.storyboard in Resources */,
+				A78E296E206930C400C74B2A /* Assets.xcassets in Resources */,
+				A78E296C206930C400C74B2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E2975206930C400C74B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E2980206930C400C74B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78E295F206930C400C74B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A750A469206AD83D00A97F96 /* Constants.swift in Sources */,
+				A78E2969206930C400C74B2A /* ViewController.swift in Sources */,
+				A78E2967206930C400C74B2A /* AppDelegate.swift in Sources */,
+				A78E29952069318800C74B2A /* StreamsClient.swift in Sources */,
+				A750A467206AD45400A97F96 /* ConnectViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E2973206930C400C74B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E297C206930C400C74B2A /* UHM44Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E297E206930C400C74B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E2987206930C400C74B2A /* UHM44UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A78E2979206930C400C74B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78E2962206930C400C74B2A /* UHM44 */;
+			targetProxy = A78E2978206930C400C74B2A /* PBXContainerItemProxy */;
+		};
+		A78E2984206930C400C74B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78E2962206930C400C74B2A /* UHM44 */;
+			targetProxy = A78E2983206930C400C74B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A78E296A206930C400C74B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78E296B206930C400C74B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A78E296F206930C400C74B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78E2970206930C400C74B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78E2989206930C400C74B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A78E298A206930C400C74B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78E298C206930C400C74B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UHM44/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.absoluteacoustics.UHM44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A78E298D206930C400C74B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UHM44/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.absoluteacoustics.UHM44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A78E298F206930C400C74B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UHM44Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.absoluteacoustics.UHM44Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UHM44.app/UHM44";
+			};
+			name = Debug;
+		};
+		A78E2990206930C400C74B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UHM44Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.absoluteacoustics.UHM44Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UHM44.app/UHM44";
+			};
+			name = Release;
+		};
+		A78E2992206930C400C74B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UHM44UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.absoluteacoustics.UHM44UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UHM44;
+			};
+			name = Debug;
+		};
+		A78E2993206930C400C74B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UHM44UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.absoluteacoustics.UHM44UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UHM44;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78E295E206930C400C74B2A /* Build configuration list for PBXProject "UHM44" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E2989206930C400C74B2A /* Debug */,
+				A78E298A206930C400C74B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78E298B206930C400C74B2A /* Build configuration list for PBXNativeTarget "UHM44" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E298C206930C400C74B2A /* Debug */,
+				A78E298D206930C400C74B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78E298E206930C400C74B2A /* Build configuration list for PBXNativeTarget "UHM44Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E298F206930C400C74B2A /* Debug */,
+				A78E2990206930C400C74B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78E2991206930C400C74B2A /* Build configuration list for PBXNativeTarget "UHM44UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E2992206930C400C74B2A /* Debug */,
+				A78E2993206930C400C74B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78E295B206930C400C74B2A /* Project object */;
+}
